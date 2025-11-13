@@ -1,49 +1,60 @@
-# History files
+# === Language Specific ===
+# R
 .Rhistory
+.RData
+.Rproj.user/
+*.Rproj
 .Rapp.history
 
-# Session Data files
-.RData
-.RDataTmp
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+*.egg-info/
 
-# User-specific files
-.Ruserdata
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
 
-# Example code in package build process
-*-Ex.R
+# === Data Protection ===
+# NEVER commit raw experimental data
+/data/raw/
+!data/processed/
+!data/metadata/
+!data/external/
 
-# Output files from R CMD build
-/*.tar.gz
+# Large binary files
+*.rds
+*.Rds
+*.rda
+*.Rda
+*.h5
+*.hdf5
 
-# Output files from R CMD check
-/*.Rcheck/
+# Sequencing data
+*.fastq
+*.fq
+*.bam
+*.sam
+*.vcf
 
-# RStudio files
+# Machine learning models
+/models/large_models/
+*.pkl
+*.joblib
+
+# Temporary analysis files
+/results/temp/
+/results/cache/
+
+# === IDE Specific ===
 .Rproj.user/
+.vscode/
+.idea/
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
-.Renviron
-
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
+# === System Files ===
+.DS_Store
+Thumbs.db

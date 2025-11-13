@@ -1,0 +1,42 @@
+name: mdmm-tomato
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Core Python
+  - python=3.9
+  - pip
+  - jupyter
+  - jupyterlab
+  
+  # Data Science
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  
+  # Bioinformatics
+  - biopython
+  - r-base=4.2
+  - r-essentials
+  - r-tidyverse
+  - r-devtools
+  
+  # R Specific Packages
+  - r-biocmanager
+  - r-phyloseq
+  - r-vegan
+  - r-wgcna
+  - r-igraph
+  - r-corrplot
+  - r-pheatmap
+  
+  # Development
+  - pre-commit
+  - black
+  - flake8
