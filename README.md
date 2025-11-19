@@ -1,12 +1,20 @@
-# Metabolite-Driven Microbiome Modulation in Tomato Rhizosphere
+# 🍅 Tomato-Prebiotic-PoC
+**Metabolite-Driven Microbiome Modulation for Bacterial Wilt Management**
 
-## Project Overview
-This repository contains the Proof-of-Concept (PoC) framework for developing prebiotic metabolite strategies to manage bacterial wilt in tomato through targeted microbiome reprogramming.
+## 📖 Overview
+Proof-of-Concept for using tomato-derived metabolites as rhizosphere prebiotics to manage *Ralstonia solanacearum* through microbiome reprogramming.
 
-## Quick Start
-1. Setup environment: conda env create -f environmental_setup/conda/environment.yml
-2. Install R packages: Rscript environmental_setup/package_management/install_packages.R
-3. Explore analysis scripts in analysis/ directory
+## 🎯 Research Branches
+- `main` - Core documentation & stable releases
+- `proposal-draft` - Grant proposal development  
+- `poc-methodology` - Experimental protocols
+- `preliminary-results` - Data analysis & findings
 
-## Contact
-Swaminathan N - swamisuba3098@gmail.com
+## 📄 Key Documents
+- [Proof-of-Concept](Proof.docx) - Comprehensive research framework
+- [Project Timeline](docs/timeline.md) - 24-month validation plan
+
+## 🔬 Research Objectives
+1. Identify prebiotic metabolites from tomato root exudates
+2. Validate disease-suppressive efficacy
+3. Develop scalable delivery formulations
